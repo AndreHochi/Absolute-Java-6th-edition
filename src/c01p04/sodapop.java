@@ -4,13 +4,7 @@ public class sodapop {
 
 	public static void main(String[] args) {
 
-		double weightMouse = .05;
-		double weightStart = 80;
-		double weightEnd = 60;
-		double sweetCan = .001;
-		double killMouse = .001;
-		double killHuman;
-		double numCans;
+		double weightMouse = .05, weightStart = 80, weightEnd = 60, sweetCan = .001, killMouse = .001, killHuman, numCans;
 		
 		killHuman = (killMouse/ weightMouse) * weightEnd;
 		numCans = killHuman / sweetCan;

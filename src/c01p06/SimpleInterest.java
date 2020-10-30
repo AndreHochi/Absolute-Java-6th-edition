@@ -4,10 +4,7 @@ public class SimpleInterest {
 
 	public static void main(String[] args) {
 		
-		double princi_amnt = 1000;
-		double int_rate = .05;
-		double no_of_yrs = 5;
-		double sim_int;
+		double princi_amnt = 1000, int_rate = .05, no_of_yrs = 5, sim_int;
 
 		sim_int = (princi_amnt * int_rate * no_of_yrs)/100;
 				

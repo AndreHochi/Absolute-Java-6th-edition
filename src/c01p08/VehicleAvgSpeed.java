@@ -6,8 +6,7 @@ public class VehicleAvgSpeed {
 	
 	public static void main(String[] args) {
 		
-		double time;
-		double averageSpeed;
+		double time, averageSpeed;
 		
 		System.out.println("This program calculates vehicle average speed given a time and distance traveled.");
 		time = 20.5;

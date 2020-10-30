@@ -4,9 +4,7 @@ public class IdealBodyweight {
 
 	public static void main(String[] args) {
 
-		int feet = 6;
-		int inches = 3;
-		int ideal;
+		int feet = 6, inches = 3, ideal;
 		
 		ideal = (feet - 5) * 12 * 5 + (inches * 5) + 110;
 		

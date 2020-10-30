@@ -4,8 +4,7 @@ public class LethalCaffeine {
 
 	public static void main(String[] args) {
 
-		double gramsPerDrink = .034;
-		double numDrinks;
+		double gramsPerDrink = .034, numDrinks;
 		
 		numDrinks = 10/gramsPerDrink;
 		

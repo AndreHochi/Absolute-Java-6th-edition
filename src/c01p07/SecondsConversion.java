@@ -4,10 +4,7 @@ public class SecondsConversion {
 
 	public static void main(String[] args) {
 		
-		int startingSeconds = 50391;
-		int hours;
-		int minutes;
-		int leftoverSeconds;
+		int startingSeconds = 50391, hours, minutes, leftoverSeconds;
 
 		hours = startingSeconds / 3600;
 		leftoverSeconds = startingSeconds % 3600;

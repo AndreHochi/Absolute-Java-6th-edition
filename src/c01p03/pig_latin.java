@@ -4,9 +4,7 @@ public class pig_latin {
 
 	public static void main(String[] args) {
 		
-		String nameFirst = "andre";
-		String nameLast = "hochi";
-		String pigLatin;
+		String nameFirst = "andre", nameLast = "hochi", pigLatin;
 		
 		pigLatin = nameFirst.substring(1,2).toUpperCase() + nameFirst.substring(2) + nameFirst.substring(0,1) + "ay" + " " + nameLast.substring(1,2).toUpperCase() + nameLast.substring(2) + nameLast.substring(0,1) + "ay";
 		
